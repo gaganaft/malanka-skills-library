@@ -1,0 +1,4 @@
+interface:
+  display_name: "Новости для суфлёра"
+  short_description: "Готовит новости, суфлёр и сообщение ведущей"
+  default_prompt: "Use $malanka-teleprompter-writer to prepare today’s news for the teleprompter and draft the presenter message."
