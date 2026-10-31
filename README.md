@@ -1,11 +1,12 @@
 # Malanka Skills Library
 
-Публичная библиотека редакционных AI-скиллов Malanka. **Основной способ работы — использовать нужный скилл прямо из обычного чата ChatGPT, без установки.** Никакие Git, Python или Xcode для этого не нужны, если ChatGPT может прочитать публичные страницы GitHub.
+Публичная библиотека AI-скиллов Malanka для мониторинга новостей и подготовки редакционных материалов. **Основной способ работы — использовать нужный скилл прямо из обычного чата ChatGPT, без установки.** Никакие Git, Python или Xcode для этого не нужны, если ChatGPT может прочитать публичные страницы GitHub.
 
 ## Каталог
 
 | Скилл | Назначение | Инструкция и готовый запрос |
 | --- | --- | --- |
+| **Malanka Media News Monitoring** | широкий веб-мониторинг новостного поля для Instagram Malanka Media, проверка и редакционный реестр без тематических квот | [README](skills/malanka-media-news-monitoring/README.md) · [SKILL.md](skills/malanka-media-news-monitoring/SKILL.md) |
 | **Malanka Instagram Writing** | публикации Instagram (Reels, посты и карусели) | [README](skills/malanka-instagram-writing/README.md) · [SKILL.md](skills/malanka-instagram-writing/SKILL.md) |
 | **Malanka Shorts Writing** | заголовки, описания и хэштеги YouTube Shorts | [README](skills/malanka-shorts-writing/README.md) · [SKILL.md](skills/malanka-shorts-writing/SKILL.md) |
 | **Malanka TikTok Writing** | короткие новостные сценарии TikTok | [README](skills/malanka-tiktok-writing/README.md) · [SKILL.md](skills/malanka-tiktok-writing/SKILL.md) |
@@ -20,6 +21,17 @@
 **Важно:** это использование правил **в текущем чате**, а не постоянная установка. В новом чате отправьте запрос снова. Доступность публичного GitHub не гарантирует, что любой конкретный ChatGPT сможет открыть все файлы.
 
 ## Готовые запросы для чата
+
+### Malanka Media News Monitoring
+
+```text
+Используй скилл «Malanka Media News Monitoring» из публичного репозитория Malanka Skills Library в ЭТОМ чате, без установки.
+
+SKILL.md: https://github.com/gaganaft/malanka-skills-library/blob/main/skills/malanka-media-news-monitoring/SKILL.md
+Папка: https://github.com/gaganaft/malanka-skills-library/tree/main/skills/malanka-media-news-monitoring
+
+Прочитай SKILL.md и необходимые references: discovery-sop.md, source-map.md, editorial-context.md, report-contract.md. Выполни широкий мониторинг новостей за последние 24 часа для Instagram Malanka Media с реальным веб-поиском. Покажи общую актуальную повестку, ссылки, даты событий и публикаций, степень проверки, а отдельно — возможный интерес отдельных сюжетов для Instagram. Не вводи тематических квот, не исключай общественно-политические события. Не утверждай, что Telegram полностью охвачен веб-поиском. При отсутствии веб-доступа честно сообщи об ограничении. Не выдавай использование инструкций в чате за постоянную установку скилла.
+```
 
 ### Malanka Instagram Writing
 
@@ -64,6 +76,10 @@ SKILL.md: https://github.com/gaganaft/malanka-skills-library/blob/main/skills/ma
 
 Сначала прочитай SKILL.md полностью и открой все дополнительные файлы, которые требуются для выполнения задачи (references/, agents/ и другие, если на них есть ссылки). Не ограничивайся только описанием скилла. Подтверди, что необходимые файлы прочитаны, и укажи недоступные, если такие есть. После этого выполняй мои задания в соответствии с этими правилами. Не заявляй, что скилл установлен: мы используем его только в текущем чате. Если доступ к файлам невозможен, сообщи об этом и попроси предоставить их содержимое.
 ```
+
+## Архивная сборка мониторинга
+
+Папка [`skills/malanka-instagram-monitoring`](skills/malanka-instagram-monitoring/) сохранена как историческая версия. Для новых задач используйте актуальный **Malanka Media News Monitoring** (`skills/malanka-media-news-monitoring`). Два скилла не следует выбирать одновременно для одного и того же мониторинга.
 
 ## Дополнительные варианты: постоянная установка
 
