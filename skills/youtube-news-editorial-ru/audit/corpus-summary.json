@@ -1,0 +1,37 @@
+{
+  "scope": "YouTube news scripts only; other project strategy documents excluded",
+  "documents": 517,
+  "all_extracted_words": 656642,
+  "estimated_script_layer_words": 587547,
+  "explicit_outro_marker_docs": 499,
+  "year_names": {
+    "2026": 418,
+    "2025": 94,
+    "undated": 5
+  },
+  "category_names": {
+    "Регионы": 258,
+    "Основные": 253,
+    "Другие": 6
+  },
+  "median_script_layer_words": 1127,
+  "candidate_headings_total": 4568,
+  "candidate_headings_median_per_doc": 8,
+  "yo_lower": 11093,
+  "yo_upper": 457,
+  "regex_counts": {
+    "belarussian_adj_belarus": 1679,
+    "belarussian_adj_belorus": 28,
+    "in_ukraine": 99,
+    "on_ukraine": 0,
+    "per_data": 985,
+    "per_words": 828,
+    "reminder": 562,
+    "note": 401,
+    "lukashenko": 1236,
+    "self_appointed": 22,
+    "dictator": 89,
+    "political_prisoner": 306
+  },
+  "methodology": "Word counts extracted from 517 DOCX. Script layer roughly ends before first isolated YouTube/ЮТУБ/Ютуб/Спутник marker. Headings candidate regex; counts are approximate. Do not treat archived text as independently verified factual reporting."
+}

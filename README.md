@@ -6,6 +6,7 @@
 
 | Скилл | Назначение | Инструкция и готовый запрос |
 | --- | --- | --- |
+| **YouTube News Editorial RU (черновик)** | редакционный стандарт для многосюжетных русскоязычных YouTube-новостей: tone of voice, словарь, имена, проверка фактов и сценарная структура | [README](skills/youtube-news-editorial-ru/README.md) · [SKILL.md](skills/youtube-news-editorial-ru/SKILL.md) |
 | **Malanka Media News Monitoring** | широкий веб-мониторинг новостного поля для Instagram Malanka Media, проверка и редакционный реестр без тематических квот | [README](skills/malanka-media-news-monitoring/README.md) · [SKILL.md](skills/malanka-media-news-monitoring/SKILL.md) |
 | **Malanka Instagram Writing** | публикации Instagram (Reels, посты и карусели) | [README](skills/malanka-instagram-writing/README.md) · [SKILL.md](skills/malanka-instagram-writing/SKILL.md) |
 | **Malanka Shorts Writing** | заголовки, описания и хэштеги YouTube Shorts | [README](skills/malanka-shorts-writing/README.md) · [SKILL.md](skills/malanka-shorts-writing/SKILL.md) |
@@ -21,6 +22,17 @@
 **Важно:** это использование правил **в текущем чате**, а не постоянная установка. В новом чате отправьте запрос снова. Доступность публичного GitHub не гарантирует, что любой конкретный ChatGPT сможет открыть все файлы.
 
 ## Готовые запросы для чата
+
+### YouTube News Editorial RU (черновик)
+
+```text
+Используй скилл «YouTube News Editorial RU» для написания, редактирования или проверки русскоязычного сценария многосюжетных YouTube-новостей в ЭТОМ чате, без установки.
+
+SKILL.md: https://github.com/gaganaft/malanka-skills-library/blob/main/skills/youtube-news-editorial-ru/SKILL.md
+Папка: https://github.com/gaganaft/malanka-skills-library/tree/main/skills/youtube-news-editorial-ru
+
+Прочитай SKILL.md полностью и необходимые файлы из references/: tone-structure.md, lexicon.md, qa-checklist.md и open-decisions.md. Если задача касается нормы по архиву — также corpus-evidence.md и EDITORIAL_RESEARCH.md. Работай только со сценариями YouTube-новостей, не переноси правила на другие продукты. Учитывай, что версия 0.1.0-draft не является окончательно утверждённым редакционным стандартом: спорные формулировки не выдавай за обязательные нормы. Если ссылки недоступны, сообщи об этом, не имитируй чтение.
+```
 
 ### Malanka Media News Monitoring
 
